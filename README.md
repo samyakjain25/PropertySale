@@ -15,14 +15,15 @@ This system organizes the data eciently and this helps
 in streamlining the data display to the users. The system
 also allows the generation of reports based on dierent
 criteria.
+
 1.1 Objective:
 The main objective of this Online Property Sale Portal
 is to provide access to the information about real estate
 agency. This project keeps track of account details of
 buyer and investors. This project allows companies and
-
 builders to post and edit the properties of the informa-
 tion about real estate agency.
+
 2 Modules
 2.1 Administrator module:
 Administrator manages the entire application. Adminis-
@@ -42,11 +43,11 @@ of each property. The data can also be viewed by users.
 The system allows administrator to generate various re-
 ports based on dierent criteria such as customer data,
 sales data and property information.
+
 3 Classes and Interface
 3.1 Classes:
 1. Administrator : Will hold the Administrator Details
 and will have methods to create,edit and delete User
-
 and Property details.
 2. User : Will contain the user prole details, Registra-
 tion form for new Users and the User's past transac-
@@ -76,7 +77,6 @@ password.
 3. Search : Will contain dierent methods for searching
 properties by sorting it according to Locality , Price
 , Size etc.
-
 4 Inheritance structures of the classes
 1. Administrator class will extend Sales class and will
 implement Login/Logout , Forgot Password and Search
